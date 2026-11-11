@@ -45,7 +45,7 @@ function App() {
         <a className="x-community" href="https://x.com/sovmao_sol" target="_blank" rel="noopener noreferrer" aria-label="X (opens in a new tab)">X</a>
         <div className="hero-top"><span><i/> A LITTLE LESS SERIOUS. A LITTLE MORE SOVMAO.</span><span>EST. IN THE COLLECTIVE IMAGINATION</span></div>
         <h1 id="hero-title">SOVMAO<span className="sr-only">, the people's cat</span></h1>
-        <div className="hero-copy"><p className="eyebrow">THE PEOPLE’S CAT</p><h2>One small cat.<br/>One collective paw.</h2><p>He has no grand plan.<br/>Just a tiny salute for everyone.</p><button className="cream-button" onClick={openGallery}>Meet the comrades <Arrow down/></button></div>
+        <div className="hero-copy"><p className="eyebrow">SOVMAO</p><h2>THE PEOPLE’S CAT.<br/>THE COLLECTIVE’S COMRADE.</h2><p>One bowl. Shared by all.<br/>Under the red banner of SOVMAO.</p><button className="cream-button" onClick={openGallery}>Meet the comrades <Arrow down/></button></div>
         <button onClick={salute} className={'salute-stamp '+(saluting?'stamped':'')} aria-label="Give SOVMAO a salute"><span>APPROVED BY</span><Star/><strong>the collective</strong><span>100% GOOD COMRADE</span></button>
         <div className="hero-note"><span className="note-line"/><p>No thoughts.<br/>Just solidarity.</p><span className="little-star">✦</span></div>
         <div className="hero-bottom"><span>BIG MUSTACHE. BIGGER HEART.</span><button onClick={openGallery}>SCROLL FOR THE GOOD STUFF <Arrow down/></button><span>01 / A PAW FOR THE PEOPLE</span></div>
